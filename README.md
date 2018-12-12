@@ -10,7 +10,8 @@ libproxyjniのtestプログラムです。
 ## VS. ##
 
 ## Requirement ##
-libproxyjniに依存する
+libproxyjniに依存する  
+(https://github.com/siranovel/libproxyjni.git)
 
 ## Usage ##
     $ proxyjnitest  
