@@ -3,7 +3,9 @@ proxyjnitest
 libproxyjniのtestプログラムです。
 
 ## Description ##
-libproxyjniのtestプログラムです。
+![proxyjnitest](images/ucProxyJNITest.jpg)  
+詳細は、
+https://github.com/siranovel/proxyjnitest/wiki
 
 ## Demo ##
 
