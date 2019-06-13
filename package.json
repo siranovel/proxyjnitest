@@ -2,10 +2,7 @@
   "name": "proxyjnitest",
   "description": "",
   "version": "1.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/siranovel/proxyjnitest.git"
-  },
+  
   "dependencies": {
     "libproxyjni": "2.2.x"
   },
