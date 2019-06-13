@@ -5,5 +5,5 @@
   
   "dependencies": {
     "libproxyjni": "2.2.x"
-  },
+  }
 }
