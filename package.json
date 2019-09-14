@@ -1,9 +1,0 @@
-{
-  "name": "proxyjnitest",
-  "description": "",
-  "version": "1.0",
-  
-  "dependencies": {
-    "libproxyjni": "2.2.x"
-  }
-}
