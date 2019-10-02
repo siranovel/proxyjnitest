@@ -10,21 +10,21 @@ public class TestJava {
     public static void staticTest_paramS(String id, String name, String memo) {
         System.out.printf("staticTest_paramS in %s: %s: %s\n", id, name, memo);
     }
-//    public static void staticTest_paramN(int iv, long lv, float fv, double dv) {
-//        System.out.printf("staticTest_paramN in %d: %d: %f %f\n", iv, lv, fv, dv);
-//    }
-    public static void staticTest_paramN(Integer iv, Long lv, Float fv, Double dv) {
+    public static void staticTest_paramN(int iv, long lv, float fv, double dv) {
         System.out.printf("staticTest_paramN in %d: %d: %f %f\n", iv, lv, fv, dv);
     }
-//    public static void staticTest_paramAV(int[] iv, long[] lv, float[] fv, double[] dv) {
-//        System.out.println("staticTest_paramAV 1 in");
-//        dspArrayAIV(iv);
-//        dspArrayALV(lv);
-//        dspArrayAFV(fv);
-//        dspArrayADV(dv);
-//    }
-    public static void staticTest_paramAV(Integer[] iv, Long[] lv, Float[] fv, Double[] dv) {
-        System.out.println("staticTest_paramAV 2 in");
+    public static void staticTest_paramN2(Integer iv, Long lv, Float fv, Double dv) {
+        System.out.printf("staticTest_paramN2 in %d: %d: %f %f\n", iv, lv, fv, dv);
+    }
+    public static void staticTest_paramAV(int[] iv, long[] lv, float[] fv, double[] dv) {
+        System.out.println("staticTest_paramAV 1 in");
+        dspArrayAIV(iv);
+        dspArrayALV(lv);
+        dspArrayAFV(fv);
+        dspArrayADV(dv);
+    }
+    public static void staticTest_paramAV2(Integer[] iv, Long[] lv, Float[] fv, Double[] dv) {
+        System.out.println("staticTest_paramAV2 2 in");
         dspArrayAIV(iv);
         dspArrayALV(lv);
         dspArrayAFV(fv);
@@ -219,23 +219,32 @@ public class TestJava {
     	dspHash(hv);
     }
 	
-//    public static int    staticTest_returnIV(int   iv) {
-//        System.out.println("staticTest_returnIV 1 in");
-//        System.out.printf("iv:%d\n", iv);
-//        return iv * 2;
-//    }
-    public static Integer    staticTest_returnIV(int  iv) {
-        System.out.println("staticTest_returnIV 2 in");
+	public static boolean  staticTest_returnBV() {
+        System.out.println("staticTest_returnBV in");
+		return true;
+	}
+	public static Boolean  staticTest_returnBV2() {
+        System.out.println("staticTest_returnBV2 in");
+		return Boolean.valueOf(true);
+	}
+	
+    public static int    staticTest_returnIV(int   iv) {
+        System.out.println("staticTest_returnIV 1 in");
+        System.out.printf("iv:%d\n", iv);
+        return iv * 2;
+    }
+    public static Integer    staticTest_returnIV2(int  iv) {
+        System.out.println("staticTest_returnIV2 2 in");
         System.out.printf("iv:%d\n", iv);
     	return Integer.valueOf(iv * 2);
     }
-//    public static long   staticTest_returnLV(long   lv) {
-//        System.out.println("staticTest_returnLV 1 in");
-//        System.out.printf("lv:%d\n", lv);
-//        return lv * 2;
-//    }
-    public static Long   staticTest_returnLV(long   lv) {
-        System.out.println("staticTest_returnLV 2 in");
+    public static long   staticTest_returnLV(long   lv) {
+        System.out.println("staticTest_returnLV 1 in");
+        System.out.printf("lv:%d\n", lv);
+        return lv * 2;
+    }
+    public static Long   staticTest_returnLV2(long   lv) {
+        System.out.println("staticTest_returnLV2 2 in");
         System.out.printf("lv:%d\n", lv);
     	return Long.valueOf(lv * 2);
     }
@@ -244,21 +253,21 @@ public class TestJava {
         System.out.printf("fv:%f\n", fv);
         return fv * 2;
     }
-//    public static Float  staticTest_returnFV(float  fv) {
-//        System.out.println("staticTest_returnFV 2 in");
-//        System.out.printf("fv:%f\n", fv);
-//    	return new Float(fv * 2);
-//    }
+    public static Float  staticTest_returnFV2(float  fv) {
+        System.out.println("staticTest_returnFV2 2 in");
+        System.out.printf("fv:%f\n", fv);
+    	return Float.valueOf(fv * 2);
+    }
     public static double staticTest_returnDV(double dv) {
         System.out.println("staticTest_returnDV 1 in");
         System.out.printf("dv:%f\n", dv);
         return dv * 2;
     }
-//    public static Double staticTest_returnDV(double dv) {
-//        System.out.println("staticTest_returnDV 2 in");
-//        System.out.printf("dv:%f\n", (double)dv);
-//    	return new Double(dv * 2);
-//    }
+    public static Double staticTest_returnDV2(double dv) {
+        System.out.println("staticTest_returnDV2 2 in");
+        System.out.printf("dv:%f\n", (double)dv);
+    	return Double.valueOf(dv * 2);
+    }
     public static String staticTest_returnPV() {
         System.out.println("staticTest_returnPV in");
         return "Hello java world!!";
@@ -269,48 +278,48 @@ public class TestJava {
         System.out.println("staticTest_returnAIV 1 in");
         return aiv;
     }
-//    public static Integer[] staticTest_returnAIV() {
-//        Integer[]    aiv = {100,    110,    120,    130,    140};
-//        
-//        System.out.println("staticTest_returnAIV 2 in");
-//        return aiv;
-//    }
+    public static Integer[] staticTest_returnAIV2() {
+        Integer[]    aiv = {100,    110,    120,    130,    140};
+        
+        System.out.println("staticTest_returnAIV2 2 in");
+        return aiv;
+    }
     public static long[] staticTest_returnALV() {
         long[]   alv = {200L,   210L,   220L,   230L,   240L};
         
         System.out.println("staticTest_returnALV 1 in");
         return alv;
     }
-//    public static Long[] staticTest_returnALV() {
-//        Long[]   alv = {200L,   210L,   220L,   230L,   240L};
-//        
-//        System.out.println("staticTest_returnALV 2 in");
-//        return alv;
-//    }
+    public static Long[] staticTest_returnALV2() {
+        Long[]   alv = {200L,   210L,   220L,   230L,   240L};
+        
+        System.out.println("staticTest_returnALV2 2 in");
+        return alv;
+    }
     public static float[] staticTest_returnAFV() {
         float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
         
         System.out.println("staticTest_returnAFV 1 in");
         return afv;
     }
-//    public static Float[] staticTest_returnAFV() {
-//        Float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
-//        
-//        System.out.println("staticTest_returnAFV 2 in");
-//        return afv;
-//    }
+    public static Float[] staticTest_returnAFV2() {
+        Float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
+        
+        System.out.println("staticTest_returnAFV2 2 in");
+        return afv;
+    }
     public static double[] staticTest_returnADV() {
         double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
         
         System.out.println("staticTest_returnADV 1 in");
         return adv;
     }
-//    public static Double[] staticTest_returnADV() {
-//        Double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
-//        
-//        System.out.println("staticTest_returnADV 2 in");
-//        return adv;
-//    }
+    public static Double[] staticTest_returnADV2() {
+        Double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
+        
+        System.out.println("staticTest_returnADV2 2 in");
+        return adv;
+    }
     public static Map<String, Object> staticTest_returnHV()
     {
         Map<String, Object> hv  = new HashMap<String, Object>();
@@ -505,11 +514,18 @@ public class TestJava {
     public void objectTest_paramN(int iv, long lv, float fv, double dv) {
         System.out.printf("objectTest_paramN 1 in %d: %d: %f %f\n", iv, lv, fv, dv);
     }
-//    public void objectTest_paramN(Integer iv, Long lv, Float fv, Double dv) {
-//        System.out.printf("objectTest_paramN 2 in %d: %d: %f %f\n", iv, lv, fv, dv);
-//    }
+    public void objectTest_paramN2(Integer iv, Long lv, Float fv, Double dv) {
+        System.out.printf("objectTest_paramN2 2 in %d: %d: %f %f\n", iv, lv, fv, dv);
+    }
     public void objectTest_paramAV(int[] iv, long[] lv, float[] fv, double[] dv) {
         System.out.println("objectTest_paramAV 1 in");
+        TestJava.dspArrayAIV(iv);;
+        TestJava.dspArrayALV(lv);
+        TestJava.dspArrayAFV(fv);
+        TestJava.dspArrayADV(dv);
+    }
+    public void objectTest_paramAV2(Integer[] iv, Long[] lv, Float[] fv, Double[] dv) {
+        System.out.println("objectTest_paramAV2 2 in");
         TestJava.dspArrayAIV(iv);;
         TestJava.dspArrayALV(lv);
         TestJava.dspArrayAFV(fv);
@@ -523,13 +539,6 @@ public class TestJava {
             System.out.println(args[i]);
     	}
     }
-//    public void objectTest_paramAV(Integer[] iv, Long[] lv, Float[] fv, Double[] dv) {
-//        System.out.println("objectTest_paramAV 2 in");
-//        TestJava.dspArrayAIV(iv);;
-//        TestJava.dspArrayALV(lv);
-//        TestJava.dspArrayAFV(fv);
-//        TestJava.dspArrayADV(dv);
-//    }
     public void objectTest_paramHV(Map<String, Object> hv)
     {
         System.out.println("objectTest_paramHV in");
@@ -590,46 +599,54 @@ public class TestJava {
         System.out.println("objectTest_paramHV_O in");
     	dspHash(hv);
     }
+	public boolean  objectTest_returnBV() {
+        System.out.println("objectTest_returnBV 1 in");
+		return true;
+	}
+	public Boolean  objectTest_returnBV2() {
+        System.out.println("objectTest_returnBV2 2 in");
+		return Boolean.valueOf(true);
+	}
     public int    objectTest_returnIV(int   iv) {
         System.out.println("objectTest_returnIV 1 in");
         System.out.printf("iv:%d\n", (int)iv);
         return iv * 3;
     }
-//    public Integer    objectTest_returnIV(int   iv) {
-//        System.out.println("objectTest_returnIV 2 in");
-//        System.out.printf("iv:%d\n", (int)iv);
-//    	return new Integer(iv * 3);
-//    }
+    public Integer    objectTest_returnIV2(int   iv) {
+        System.out.println("objectTest_returnIV2 2 in");
+        System.out.printf("iv:%d\n", (int)iv);
+    	return Integer.valueOf(iv * 3);
+    }
     public long   objectTest_returnLV(long   lv) {
         System.out.println("objectTest_returnLV 1 in");
         System.out.printf("lv:%d\n", (long)lv);
         return lv * 3;
     }
-//    public Long   objectTest_returnLV(long   lv) {
-//        System.out.println("objectTest_returnLV 2 in");
-//        System.out.printf("lv:%d\n", (long)lv);
-//    	return new Long(lv * 3);
-//    }
+    public Long   objectTest_returnLV2(long   lv) {
+        System.out.println("objectTest_returnLV2 2 in");
+        System.out.printf("lv:%d\n", (long)lv);
+    	return Long.valueOf(lv * 3);
+    }
     public float  objectTest_returnFV(float  fv) {
         System.out.println("objectTest_returnFV 1 in");
         System.out.printf("fv:%f\n", (float)fv);
         return fv * 3;
     }
-//    public Float  objectTest_returnFV(float  fv) {
-//        System.out.println("objectTest_returnFV 2 in");
-//        System.out.printf("fv:%f\n", (float)fv);
-//    	return new Float(fv * 3);
-//    }
+    public Float  objectTest_returnFV2(float  fv) {
+        System.out.println("objectTest_returnFV2 2 in");
+        System.out.printf("fv:%f\n", (float)fv);
+    	return Float.valueOf(fv * 3);
+    }
     public double objectTest_returnDV(double dv) {
         System.out.println("objectTest_returnDV 1 in");
         System.out.printf("dv:%f\n", (double)dv);
         return dv * 3;
     }
-//    public Double objectTest_returnDV(double dv) {
-//        System.out.println("objectTest_returnDV 2 in");
-//        System.out.printf("dv:%f\n", (double)dv);
-//    	return new Double(dv * 3);
-//    }
+    public Double objectTest_returnDV2(double dv) {
+        System.out.println("objectTest_returnDV2 2 in");
+        System.out.printf("dv:%f\n", (double)dv);
+    	return Double.valueOf(dv * 3);
+    }
     public String objectTest_returnPV() {
         System.out.println("objectTest_returnPV in");
         return "Hello java world!!";
@@ -640,46 +657,46 @@ public class TestJava {
         System.out.println("objectTest_returnAIV 1 in");
         return aiv;
     }
-//    public Integer[] objectTest_returnAIV() {
-//        Integer[]    aiv = {100,    110,    120,    130,    140};
-//        
-//        System.out.println("objectTest_returnAIV 2 in");
-//        return aiv;
-//    }
+    public Integer[] objectTest_returnAIV2() {
+        Integer[]    aiv = {100,    110,    120,    130,    140};
+        
+        System.out.println("objectTest_returnAIV2 2 in");
+        return aiv;
+    }
     public long[] objectTest_returnALV() {
         long[]   alv = {200L,   210L,   220L,   230L,   240L};
         
         System.out.println("objectTest_returnALV 1 in");
         return alv;
     }
-//    public Long[] objectTest_returnALV() {
-//        Long[]   alv = {200L,   210L,   220L,   230L,   240L};
-//        
-//        System.out.println("objectTest_returnALV 2 in");
-//        return alv;
-//    }
+    public Long[] objectTest_returnALV2() {
+        Long[]   alv = {200L,   210L,   220L,   230L,   240L};
+        
+        System.out.println("objectTest_returnALV2 2 in");
+        return alv;
+    }
     public float[] objectTest_returnAFV() {
         float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
         
         System.out.println("objectTest_returnAFV 1 in");
         return afv;
     }
-//    public Float[] objectTest_returnAFV() {
-//        Float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
-//        
-//        System.out.println("objectTest_returnAFV 2 in");
-//        return afv;
-//    }
-//    public double[] objectTest_returnADV() {
-//        double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
-//        
-//        System.out.println("objectTest_returnADV 1 in");
-//        return adv;
-//    }
-    public Double[] objectTest_returnADV() {
+    public Float[] objectTest_returnAFV2() {
+        Float[]  afv = {300.5f, 310.5f, 320.5f, 330.5f, 340.5f};
+        
+        System.out.println("objectTest_returnAFV2 2 in");
+        return afv;
+    }
+    public double[] objectTest_returnADV() {
+        double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
+        
+        System.out.println("objectTest_returnADV 1 in");
+        return adv;
+    }
+    public Double[] objectTest_returnADV2() {
         Double[] adv = {400.8,  410.8,  420.8,  430.8,  440.8};
         
-        System.out.println("objectTest_returnADV 2 in");
+        System.out.println("objectTest_returnADV2 2 in");
         return adv;
     }
     public Map objectTest_returnHV()
