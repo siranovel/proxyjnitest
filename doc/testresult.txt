@@ -1,0 +1,598 @@
+ƒeƒXƒgŒ‹‰Ê
+
+--- StaticMethod Test ---
+staticTest_paramX in
+staticTest_paramS in id00006: name00006: memo00006
+staticTest_paramN in 10: 20: 30.500000 40.500000
+staticTest_paramAV 1 in
+iv: 10: 11: 12: 13
+lv: 20: 21: 22: 23
+fv: 30.500000: 31.500000: 32.500000: 33.500000
+dv: 40.500000: 41.500000: 42.500000: 43.500000
+staticTest_paramHV_I in
+I:key:key03 value:10
+I:key:key02 value:10
+I:key:key01 value:10
+staticTest_paramHV_L in
+L:key:key03 value:20
+L:key:key02 value:20
+L:key:key01 value:20
+staticTest_paramHV_F in
+F:key:key03 value:30.500000
+F:key:key02 value:30.500000
+F:key:key01 value:30.500000
+staticTest_paramHV_D in
+D:key:key03 value:40.500000
+D:key:key02 value:40.500000
+D:key:key01 value:40.500000
+staticTest_paramHV_S in
+S:key:key03 value:value03
+S:key:key02 value:value02
+S:key:key01 value:value01
+staticTest_paramHV_AI in
+AI:key:key03 iv: 10: 11: 12: 13
+AI:key:key02 iv: 10: 11: 12: 13
+AI:key:key01 iv: 10: 11: 12: 13
+staticTest_paramHV_AL in
+AL:key:key03 lv: 20: 21: 22: 23
+AL:key:key02 lv: 20: 21: 22: 23
+AL:key:key01 lv: 20: 21: 22: 23
+staticTest_paramHV_AF in
+AF:key:key03 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AF:key:key02 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AF:key:key01 fv: 30.500000: 31.500000: 32.500000: 33.500000
+staticTest_paramHV_AD in
+AD:key:key03 dv: 40.500000: 41.500000: 42.500000: 43.500000
+AD:key:key02 dv: 40.500000: 41.500000: 42.500000: 43.500000
+AD:key:key01 dv: 40.500000: 41.500000: 42.500000: 43.500000
+staticTest_paramHV_H in
+HV:key:key03
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+HV:key:key02
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+HV:key:key01
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+staticTest_paramHV_O in
+D:key:key04 value:40.500000
+F:key:key03 value:30.500000
+L:key:key02 value:20
+I:key:key01 value:10
+AF:key:key08 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AL:key:key07 lv: 20: 21: 22: 23
+AI:key:key06 iv: 10: 11: 12: 13
+S:key:key05 value:value05
+AD:key:key09 dv: 40.500000: 41.500000: 42.500000: 43.500000
+HV:key:key10
+D:key:keyX4 value:40.500000
+F:key:keyX3 value:30.500000
+L:key:keyX2 value:20
+I:key:keyX1 value:10
+staticTest_returnBV in
+ret:True
+staticTest_returnIV 1 in
+iv:10
+ret:20
+staticTest_returnLV 1 in
+lv:20
+ret:40
+staticTest_returnFV 1 in
+fv:30.500000
+ret:61.000000
+staticTest_returnDV 1 in
+dv:40.500000
+ret:81.000000
+staticTest_returnPV in
+ret:Hello java world!!
+staticTest_returnAIV 1 in
+100 110 120 130 140
+staticTest_returnALV 1 in
+200 210 220 230 240
+staticTest_returnAFV 1 in
+300.500000 310.500000 320.500000 330.500000 340.500000
+staticTest_returnADV 1 in
+400.800000 410.800000 420.800000 430.800000 440.800000
+staticTest_returnHV_I in
+I :keykey03 value:ret:1002
+I :keykey02 value:ret:1001
+I :keykey01 value:ret:1000
+staticTest_returnHV_L in
+L :keykey03 value:ret:2002
+L :keykey02 value:ret:2001
+L :keykey01 value:ret:2000
+staticTest_returnHV_F in
+F :keykey03 value:ret:3002.600098
+F :keykey02 value:ret:3001.600098
+F :keykey01 value:ret:3000.600098
+staticTest_returnHV_D in
+D :keykey03 value:ret:4002.600000
+D :keykey02 value:ret:4001.600000
+D :keykey01 value:ret:4000.600000
+staticTest_returnHV_S in
+S :keykey03 value:ret:value05
+S :keykey02 value:ret:value05
+S :keykey01 value:ret:value05
+staticTest_returnHV_AI in
+AI:keykey03 value:100 110 120
+AI:keykey02 value:100 110 120
+AI:keykey01 value:100 110 120
+staticTest_returnHV_AL in
+AL:keykey03 value:901943132360 220 0
+AL:keykey02 value:901943132360 220 0
+AL:keykey01 value:901943132360 220 0
+staticTest_returnHV_AF in
+AF:keykey03 value:300.600006 310.600006 320.600006
+AF:keykey02 value:300.600006 310.600006 320.600006
+AF:keykey01 value:300.600006 310.600006 320.600006
+staticTest_returnHV_AD in
+AD:keykey03 value:400.600000 410.600000 410.600000
+AD:keykey02 value:400.600000 410.600000 410.600000
+AD:keykey01 value:400.600000 410.600000 410.600000
+staticTest_returnHV_H in
+H :keykey03 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+H :keykey02 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+H :keykey01 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+staticTest_returnHV_O in
+O :keykey03 value:ret: O
+O :keykey02 value:ret: O
+O :keykey01 value:ret: O
+staticTest_returnAHV in
+i:0
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2100
+I :keykey01 value:ret:1100
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:1
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2101
+I :keykey01 value:ret:1101
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:2
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2102
+I :keykey01 value:ret:1102
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:3
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2103
+I :keykey01 value:ret:1103
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:4
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2104
+I :keykey01 value:ret:1104
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:5
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2105
+I :keykey01 value:ret:1105
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:6
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2106
+I :keykey01 value:ret:1106
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:7
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2107
+I :keykey01 value:ret:1107
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:8
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2108
+I :keykey01 value:ret:1108
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:9
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2109
+I :keykey01 value:ret:1109
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+staticTest_returnO in
+ret: O
+staticTest_paramN2 in 10: 20: 30.500000 40.500000
+staticTest_paramAV2 2 in
+iv: 10: 11: 12: 13
+lv: 20: 21: 22: 23
+fv: 30.500000: 31.500000: 32.500000: 33.500000
+dv: 40.500000: 41.500000: 42.500000: 43.500000
+staticTest_returnBV2 in
+ret:True
+staticTest_returnIV2 2 in
+iv:10
+ret:20
+staticTest_returnLV2 2 in
+lv:20
+ret:40
+staticTest_returnFV2 2 in
+fv:30.500000
+ret:61.000000
+staticTest_returnDV2 2 in
+dv:40.500000
+ret:81.000000
+staticTest_returnAIV2 2 in
+100 110 120 130 140
+staticTest_returnALV2 2 in
+901943132360 987842478300 240 0 0
+staticTest_returnAFV2 2 in
+300.500000 310.500000 320.500000 330.500000 340.500000
+staticTest_returnADV2 2 in
+400.800000 410.800000 420.800000 430.800000 440.800000
+
+--- ObjectMethod Test ---
+objectTest_paramX in
+objectTest_paramS in id00006: name00006: memo00006
+objectTest_paramN 1 in 10: 20: 30.500000 40.500000
+objectTest_paramAV 1 in
+iv: 10: 11: 12: 13
+lv: 20: 21: 22: 23
+fv: 30.500000: 31.500000: 32.500000: 33.500000
+dv: 40.500000: 41.500000: 42.500000: 43.500000
+objectTest_paramHV in
+D:key:key04 value:40.500000
+F:key:key03 value:30.500000
+L:key:key02 value:20
+I:key:key01 value:10
+AF:key:key08 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AL:key:key07 lv: 20: 21: 22: 23
+AI:key:key06 iv: 10: 11: 12: 13
+S:key:key05 value:value05
+AD:key:key09 dv: 40.500000: 41.500000: 42.500000: 43.500000
+HV:key:key10
+D:key:keyX4 value:40.500000
+F:key:keyX3 value:30.500000
+L:key:keyX2 value:20
+I:key:keyX1 value:10
+objectTest_paramHV_I in
+I:key:key03 value:10
+I:key:key02 value:10
+I:key:key01 value:10
+objectTest_paramHV_L in
+L:key:key03 value:20
+L:key:key02 value:20
+L:key:key01 value:20
+objectTest_paramHV_F in
+F:key:key03 value:30.500000
+F:key:key02 value:30.500000
+F:key:key01 value:30.500000
+objectTest_paramHV_D in
+D:key:key03 value:40.500000
+D:key:key02 value:40.500000
+D:key:key01 value:40.500000
+objectTest_paramHV_P in
+S:key:key03 value:value03
+S:key:key02 value:value02
+S:key:key01 value:value01
+objectTest_paramHV_AI in
+AI:key:key03 iv: 10: 11: 12: 13
+AI:key:key02 iv: 10: 11: 12: 13
+AI:key:key01 iv: 10: 11: 12: 13
+objectTest_paramHV_AL in
+AL:key:key03 lv: 20: 21: 22: 23
+AL:key:key02 lv: 20: 21: 22: 23
+AL:key:key01 lv: 20: 21: 22: 23
+objectTest_paramHV_AF in
+AF:key:key03 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AF:key:key02 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AF:key:key01 fv: 30.500000: 31.500000: 32.500000: 33.500000
+objectTest_paramHV_AD in
+AD:key:key03 dv: 40.500000: 41.500000: 42.500000: 43.500000
+AD:key:key02 dv: 40.500000: 41.500000: 42.500000: 43.500000
+AD:key:key01 dv: 40.500000: 41.500000: 42.500000: 43.500000
+objectTest_paramHV_H in
+HV:key:key03
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+HV:key:key02
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+HV:key:key01
+I:key:keyX2 value:10
+I:key:keyX1 value:10
+objectTest_paramHV_O in
+D:key:key04 value:40.500000
+F:key:key03 value:30.500000
+L:key:key02 value:20
+I:key:key01 value:10
+AF:key:key08 fv: 30.500000: 31.500000: 32.500000: 33.500000
+AL:key:key07 lv: 20: 21: 22: 23
+AI:key:key06 iv: 10: 11: 12: 13
+S:key:key05 value:value05
+AD:key:key09 dv: 40.500000: 41.500000: 42.500000: 43.500000
+HV:key:key10
+D:key:keyX4 value:40.500000
+F:key:keyX3 value:30.500000
+L:key:keyX2 value:20
+I:key:keyX1 value:10
+objectTest_returnBV 1 in
+ret:True
+objectTest_returnIV 1 in
+iv:10
+ret:30
+objectTest_returnLV 1 in
+lv:20
+ret:60
+objectTest_returnFV 1 in
+fv:30.500000
+ret:91.500000
+objectTest_returnDV 1 in
+dv:40.500000
+ret:121.500000
+objectTest_returnPV in
+ret:Hello java world!!
+objectTest_returnAIV 1 in
+100 110 120 130 140
+objectTest_returnALV 1 in
+200 210 220 230 240
+objectTest_returnAFV 1 in
+300.500000 310.500000 320.500000 330.500000 340.500000
+objectTest_returnADV 1 in
+400.800000 410.800000 420.800000 430.800000 440.800000
+objectTest_returnHV in
+AL:keykey11 value:901943132360 987842478300 0 0
+AI:keykey10 value:100 110 120 130
+D :keykey04 value:ret:4000.600000
+O :keykey15 value:ret: O
+F :keykey03 value:ret:3000.600098
+H :keykey14 value:AD:keykeyX9 value:400.600000 410.600000 420.600000
+D :keykeyX4 value:ret:4000.600000
+F :keykeyX3 value:ret:3000.600098
+L :keykeyX2 value:ret:2000
+I :keykeyX1 value:ret:1000
+AF:keykeyX8 value:300.600006 310.600006 320.600006
+AL:keykeyX7 value:200 210 220
+AI:keykeyX6 value:100 110 120
+S :keykeyX5 value:ret:value05
+L :keykey02 value:ret:2000
+AD:keykey13 value:400.600000 410.600000 420.600000 430.600000
+I :keykey01 value:ret:1000
+AF:keykey12 value:300.600006 310.600006 320.600006 330.600006
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+objectTest_returnHV_I in
+I :keykey03 value:ret:1002
+I :keykey02 value:ret:1001
+I :keykey01 value:ret:1000
+objectTest_returnHV_L in
+L :keykey03 value:ret:2002
+L :keykey02 value:ret:2001
+L :keykey01 value:ret:2000
+objectTest_returnHV_F in
+F :keykey03 value:ret:3002.600098
+F :keykey02 value:ret:3001.600098
+F :keykey01 value:ret:3000.600098
+objectTest_returnHV_D in
+D :keykey03 value:ret:4002.600000
+D :keykey02 value:ret:4001.600000
+D :keykey01 value:ret:4000.600000
+objectTest_returnHV_S in
+S :keykey03 value:ret:value05
+S :keykey02 value:ret:value05
+S :keykey01 value:ret:value05
+objectTest_returnHV_AI in
+AI:keykey03 value:100 110 120
+AI:keykey02 value:100 110 120
+AI:keykey01 value:100 110 120
+objectTest_returnHV_AL in
+AL:keykey03 value:901943132360 220 0
+AL:keykey02 value:901943132360 220 0
+AL:keykey01 value:901943132360 220 0
+objectTest_returnHV_AF in
+AF:keykey03 value:300.600006 310.600006 320.600006
+AF:keykey02 value:300.600006 310.600006 320.600006
+AF:keykey01 value:300.600006 310.600006 320.600006
+objectTest_returnHV_AD in
+AD:keykey03 value:400.600000 410.600000 410.600000
+AD:keykey02 value:400.600000 410.600000 410.600000
+AD:keykey01 value:400.600000 410.600000 410.600000
+objectTest_returnHV_H in
+H :keykey03 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+H :keykey02 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+H :keykey01 value:I :keykeyX2 value:ret:1010
+I :keykeyX1 value:ret:1000
+objectTest_returnHV_O in
+O :keykey03 value:ret: O
+O :keykey02 value:ret: O
+O :keykey01 value:ret: O
+objectTest_returnAHV in
+i:0
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2200
+I :keykey01 value:ret:1200
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:1
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2201
+I :keykey01 value:ret:1201
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:2
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2202
+I :keykey01 value:ret:1202
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:3
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2203
+I :keykey01 value:ret:1203
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:4
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2204
+I :keykey01 value:ret:1204
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:5
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2205
+I :keykey01 value:ret:1205
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:6
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2206
+I :keykey01 value:ret:1206
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:7
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2207
+I :keykey01 value:ret:1207
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:8
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2208
+I :keykey01 value:ret:1208
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+i:9
+D :keykey04 value:ret:4000.600000
+F :keykey03 value:ret:3000.600098
+L :keykey02 value:ret:2209
+I :keykey01 value:ret:1209
+AF:keykey08 value:300.600006 310.600006 320.600006
+AL:keykey07 value:200 210 220
+AI:keykey06 value:100 110 120
+S :keykey05 value:ret:value05
+AD:keykey09 value:400.600000 410.600000 410.600000
+objectTest_returnO in
+ret: O
+objectTest_paramN2 2 in 10: 20: 30.500000 40.500000
+objectTest_paramAV2 2 in
+iv: 10: 11: 12: 13
+lv: 20: 21: 22: 23
+fv: 30.500000: 31.500000: 32.500000: 33.500000
+dv: 40.500000: 41.500000: 42.500000: 43.500000
+objectTest_returnBV2 2 in
+ret:True
+objectTest_returnIV2 2 in
+iv:10
+ret:30
+objectTest_returnLV2 2 in
+lv:20
+ret:60
+objectTest_returnFV2 2 in
+fv:30.500000
+ret:91.500000
+objectTest_returnDV2 2 in
+dv:40.500000
+ret:121.500000
+objectTest_returnAIV2 2 in
+100 110 120 130 140
+objectTest_returnALV2 2 in
+901943132360 987842478300 240 0 0
+objectTest_returnAFV2 2 in
+300.500000 310.500000 320.500000 330.500000 340.500000
+objectTest_returnADV2 2 in
+400.800000 410.800000 420.800000 430.800000 440.800000
+
+--- InstanceMethod Test ---
+showInfox in
+objectTest_paramS in id00006: name00006: memo00006
+staticTest_returnO in
+staticTest_returnHV in
+showInfoy in
+Hello Lambda!
+
+--- System.propties Test ---
+open dir error:lib
+java.class.path:.
