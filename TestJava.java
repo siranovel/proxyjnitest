@@ -470,8 +470,6 @@ public class TestJava {
     	}
         return hv;
     }
-	
-	
 	public static List<Map<String, Object>> staticTest_returnAHV()
 	{
 		List<Map<String, Object>> ahv = new ArrayList<Map<String, Object>>();
@@ -504,6 +502,31 @@ public class TestJava {
 		System.out.println("staticTest_returnO in");
 		return TestJava.returnLambda();
 	}
+	public static Object staticTest_returnO_B() {
+		System.out.println("staticTest_returnO_B in");
+		return Boolean.valueOf(false);
+	}
+	public static Object staticTest_returnO_I() {
+		System.out.println("staticTest_returnO_I in");
+    	return Integer.valueOf(1000);
+	}
+	public static Object staticTest_returnO_L() {
+		System.out.println("staticTest_returnO_L in");
+    	return Long.valueOf(2000);
+	}
+	public static Object staticTest_returnO_F() {
+		System.out.println("staticTest_returnO_F in");
+    	return Float.valueOf(3000.3f);
+	}
+	public static Object staticTest_returnO_D() {
+		System.out.println("staticTest_returnO_D in");
+    	return Double.valueOf(4000.3);
+	}
+	public static Object staticTest_returnO_S() {
+		System.out.println("staticTest_returnO_S in");
+		return new String("abc");
+	}
+	
     public void objectTest_paramX()
     {
         System.out.println("objectTest_paramX in");
@@ -605,7 +628,7 @@ public class TestJava {
 	}
 	public Boolean  objectTest_returnBV2() {
         System.out.println("objectTest_returnBV2 2 in");
-		return Boolean.valueOf(true);
+		return Boolean.valueOf(false);
 	}
     public int    objectTest_returnIV(int   iv) {
         System.out.println("objectTest_returnIV 1 in");
@@ -876,5 +899,29 @@ public class TestJava {
 	{
 		System.out.println("objectTest_returnO in");
         return TestJava.returnLambda();
+	}
+	public Object objectTest_returnO_B() {
+		System.out.println("objectTest_returnO_B in");
+		return Boolean.valueOf(false);
+	}
+	public Object objectTest_returnO_I() {
+		System.out.println("objectTest_returnO_I in");
+    	return Integer.valueOf(1000);
+	}
+	public Object objectTest_returnO_L() {
+		System.out.println("objectTest_returnO_L in");
+    	return Long.valueOf(2000);
+	}
+	public Object objectTest_returnO_F() {
+		System.out.println("objectTest_returnO_F in");
+    	return Float.valueOf(3000.3f);
+	}
+	public Object objectTest_returnO_D() {
+		System.out.println("objectTest_returnO_D in");
+    	return Double.valueOf(4000.3);
+	}
+	public Object objectTest_returnO_S() {
+		System.out.println("objectTest_returnO_S in");
+		return new String("abc");
 	}
 }
