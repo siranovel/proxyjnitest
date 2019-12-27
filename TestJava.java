@@ -32,7 +32,7 @@ public class TestJava {
     }
     private static void dspArrayAIV(Integer[] av)
 	{
-        System.out.printf("iv");
+        System.out.printf("aiv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %d", av[i].intValue());
         }
@@ -40,49 +40,49 @@ public class TestJava {
 	}
     private static void dspArrayAIV(int[] av)
     {
-        System.out.printf("iv");
+        System.out.printf("aiv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %d", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayALV(long[] av) {
-        System.out.printf("lv");
+        System.out.printf("alv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %d", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayALV(Long[] av) {
-        System.out.printf("lv");
+        System.out.printf("alv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %d", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayAFV(float[] av) {
-        System.out.printf("fv");
+        System.out.printf("afv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %f", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayAFV(Float[] av) {
-        System.out.printf("fv");
+        System.out.printf("afv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %f", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayADV(double[] av) {
-        System.out.printf("dv");
+        System.out.printf("adv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %f", av[i]);
         }
         System.out.println();
     }
     private static void dspArrayADV(Double[] av) {
-        System.out.printf("dv");
+        System.out.printf("adv");
         for (int i = 0; i < av.length; i++) {
             System.out.printf(": %f", av[i]);
         }
