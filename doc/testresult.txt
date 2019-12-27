@@ -1,3 +1,4 @@
+[sira@localhost test]$ proxyjnitest
 --- StaticMethod Test ---
 staticTest_paramX in
 staticTest_paramS in id00006: name00006: memo00006
@@ -117,9 +118,9 @@ AI:keykey03 value:100 110 120
 AI:keykey02 value:100 110 120
 AI:keykey01 value:100 110 120
 staticTest_returnHV_AL in
-AL:keykey03 value:901943132360 220 0
-AL:keykey02 value:901943132360 220 0
-AL:keykey01 value:901943132360 220 0
+AL:keykey03 value:200 210 220
+AL:keykey02 value:200 210 220
+AL:keykey01 value:200 210 220
 staticTest_returnHV_AF in
 AF:keykey03 value:300.600006 310.600006 320.600006
 AF:keykey02 value:300.600006 310.600006 320.600006
@@ -265,7 +266,7 @@ ret:81.000000
 staticTest_returnAIV2 2 in
 100 110 120 130 140
 staticTest_returnALV2 2 in
-901943132360 987842478300 240 0 0
+200 210 220 230 240
 staticTest_returnAFV2 2 in
 300.500000 310.500000 320.500000 330.500000 340.500000
 staticTest_returnADV2 2 in
@@ -393,7 +394,7 @@ objectTest_returnAFV 1 in
 objectTest_returnADV 1 in
 400.800000 410.800000 420.800000 430.800000 440.800000
 objectTest_returnHV in
-AL:keykey11 value:901943132360 987842478300 0 0
+AL:keykey11 value:200 210 220 230
 AI:keykey10 value:100 110 120 130
 D :keykey04 value:ret:4000.600000
 O :keykey15 value:ret: O
@@ -441,9 +442,9 @@ AI:keykey03 value:100 110 120
 AI:keykey02 value:100 110 120
 AI:keykey01 value:100 110 120
 objectTest_returnHV_AL in
-AL:keykey03 value:901943132360 220 0
-AL:keykey02 value:901943132360 220 0
-AL:keykey01 value:901943132360 220 0
+AL:keykey03 value:200 210 220
+AL:keykey02 value:200 210 220
+AL:keykey01 value:200 210 220
 objectTest_returnHV_AF in
 AF:keykey03 value:300.600006 310.600006 320.600006
 AF:keykey02 value:300.600006 310.600006 320.600006
@@ -589,7 +590,7 @@ ret:121.500000
 objectTest_returnAIV2 2 in
 100 110 120 130 140
 objectTest_returnALV2 2 in
-901943132360 987842478300 240 0 0
+200 210 220 230 240
 objectTest_returnAFV2 2 in
 300.500000 310.500000 320.500000 330.500000 340.500000
 objectTest_returnADV2 2 in
@@ -618,3 +619,36 @@ Hello Lambda!
 --- System.propties Test ---
 open dir error:lib
 java.class.path:.
+--- Field Opration Test ---
+
+field_type:0 True
+field_type:1 1000
+field_type:2 2000
+field_type:3 3000.699951
+field_type:4 4000.800000
+field_type:5 FIELD_TYPE_S
+field_type:6 (nil)
+field_type:0 True
+field_type:1 1100
+field_type:2 2100
+field_type:3 3100.300049
+field_type:4 4100.300000
+field_type:5 FIELD_TYPE_S
+field_type:6 (nil)
+
+
+field_type:0 True
+field_type:1 1200
+field_type:2 2200
+field_type:3 3200.500000
+field_type:4 4200.500000
+field_type:5 FIELD_TYPE_S
+field_type:6 0x94cfa0
+field_type:0 True
+field_type:1 1300
+field_type:2 2300
+field_type:3 3300.899902
+field_type:4 4300.900000
+field_type:5 FIELD_TYPE_S
+field_type:6 0x94d718
+
