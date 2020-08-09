@@ -1,19 +1,16 @@
-proxyjnitest
+﻿proxyjnitest
 ==========
 libproxyjniのtestプログラムです。
 
 ## Description ##
-![proxyjnitest](images/ucProxyJNITest.jpg)  
-詳細は、
-https://github.com/siranovel/proxyjnitest/wiki
+libproxyjniのtestプログラムです。
 
 ## Demo ##
 
 ## VS. ##
 
 ## Requirement ##
-libproxyjniに依存する  
-(https://github.com/siranovel/libproxyjni.git)
+libproxyjniに依存する
 
 ## Usage ##
     $ proxyjnitest  
@@ -27,4 +24,9 @@ libproxyjniに依存する
 
 ## Licence ##
 
+[GPLv2](LICENSE)
+
+
 ## Author ##
+
+[siranovel](https://github.com/siranovel)
