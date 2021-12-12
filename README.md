@@ -1,9 +1,12 @@
-proxyjnitest
+﻿proxyjnitest
 ==========
 libproxyjniのtestプログラムです。
 
 ## Description ##
 libproxyjniのtestプログラムです。
+
+詳細は、https://siranovel.github.io/mydocs/proxyjni/test  
+
 
 ## Demo ##
 
